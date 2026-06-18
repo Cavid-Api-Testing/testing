@@ -2,4 +2,5 @@ GitHub testing
 2 ci push etmek cehdi
 githubdan clone etmek cehdi
 GitHub Jenkins elaqesi 2
-novbeti yoxlama novbeti
+novbeti yoxlama novbeti 
+yeni deyisiklik
