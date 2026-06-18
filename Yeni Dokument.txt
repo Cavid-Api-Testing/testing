@@ -3,4 +3,4 @@ GitHub testing
 githubdan clone etmek cehdi
 GitHub Jenkins elaqesi 2
 novbeti yoxlama novbeti 
-yeni deyisiklik
+yeni deyisiklik 2
