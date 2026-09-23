@@ -4,3 +4,4 @@ githubdan clone etmek cehdi
 GitHub Jenkins elaqesi 2
 novbeti yoxlama novbeti 
 yeni deyisiklik 2
+yeniden baslama
