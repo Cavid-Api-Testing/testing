@@ -8,9 +8,11 @@ pipeline {
             }
         }
 
-        stage('Run API Tests in Docker') {
+        stage('Run API Tests') {
             steps {
-                sh 'docker run --rm -v "$PWD:/etc/newman" postman/newman run collection.json -e environment.json'
+                // Əgər newman yoxdursa npm ilə yükləyirik və işlədirik
+                sh 'npm install -g newman newman-reporter-htmlextra || true'
+                sh 'newman run collection.json -e environment.json'
             }
         }
     }
