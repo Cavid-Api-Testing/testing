@@ -4,13 +4,13 @@
   "values": [
     {
       "key": "baseUrl",
-      "value": "https://jsonplaceholder.typicode.com",
+      "value": "jsonplaceholder.typicode.com",
       "type": "default",
       "enabled": true
     },
     {
       "key": "basUrlNew",
-      "value": "https://jsonplaceholder.typicode.com",
+      "value": "jsonplaceholder.typicode.com",
       "type": "default",
       "enabled": true
     }
