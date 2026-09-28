@@ -1,0 +1,40 @@
+{
+  "info": {
+    "_postman_id": "b2570519-936b-49e6-b232-ee2f30ae4bc4",
+    "name": "Poatman-Automation-Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "28291882"
+  },
+  "item": [
+    {
+      "name": "Get User Details",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status cod shoud be 200\",()=>{\r\n    pm.response.to.have.status(200)\r\n})\r\n\r\npm.test(\"response time shoud be less than 200ms\",()=>{\r\n    pm.expect(pm.response.responseTime).to.be.below(200)\r\n})"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://{{basUrlNew}}/users/1",
+          "protocol": "https",
+          "host": [
+            "{{basUrlNew}}"
+          ],
+          "path": [
+            "users",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
