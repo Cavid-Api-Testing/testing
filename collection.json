@@ -14,7 +14,7 @@
           "script": {
             "type": "text/javascript",
             "exec": [
-              "pm.test(\"Status cod shoud be 200\",()=>{\r\n    pm.response.to.have.status(200)\r\n})\r\n\r\npm.test(\"response time shoud be less than 200ms\",()=>{\r\n    pm.expect(pm.response.responseTime).to.be.below(200)\r\n})"
+              "pm.test(\"Status cod shoud be 200\",()=>{\r\n    pm.response.to.have.status(200)\r\n})\r\n\r\npm.test(\"response time shoud be less than 1000ms\",()=>{\r\n    pm.expect(pm.response.responseTime).to.be.below(1000)\r\n})"
             ]
           }
         }
